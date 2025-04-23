@@ -68,12 +68,18 @@ Os experimentos realizados mostraram que:
 ## 🚀 Como Executar
 
 1. Clone o repositório:
-   ``` git clone https://github.com/seu-usuario/nome-do-repo.git
-   cd nome-do-repo ```
+   ``` 
+   git clone https://github.com/seu-usuario/nome-do-repo.git
+   cd nome-do-repo 
+   ```
 
 2. Instale as dependências:
-   ``` pip install torch pandas matplotlib numpy ```
+   ``` 
+   pip install torch pandas matplotlib numpy 
+   ```
 
 3. Execute os scripts conforme a atividade desejada:
-   ``` python src/mlp.py     # Para o Experimento 3.1
-   python src/mlp2.py    # Para o Experimento 3.2 ```
+   ``` 
+   python src/mlp.py     # Para o Experimento 3.1
+   python src/mlp2.py    # Para o Experimento 3.2 
+   ```
