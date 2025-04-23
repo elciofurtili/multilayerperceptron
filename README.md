@@ -13,11 +13,12 @@ O objetivo principal é implementar uma rede neural do tipo Multi-Layer Perceptr
     * `mlp2.py`: Implementação para o Experimento 3.2 (Dataset 4)
 * `dataset/`
     * `2/`: Dataset para o experimento 3.1 (problema não-linear)
-        * `...`: Arquivos do Dataset 2
+        * `test_dataset.csv`
+        * `train_dataset.csv`
     * `4/`: Dataset para o experimento 3.2 (50 features, 4 classes)
-        * `train.csv`
-        * `val.csv`
-        * `test.csv`
+        * `test_dataset.csv`
+        * `train_dataset.csv`
+        * `validation_dataset.csv`
 * `README.md`
 
 ---
@@ -67,12 +68,12 @@ Os experimentos realizados mostraram que:
 ## 🚀 Como Executar
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/nome-do-repo.git
-   cd nome-do-repo
+   ``` git clone https://github.com/seu-usuario/nome-do-repo.git
+   cd nome-do-repo ```
 
 2. Instale as dependências:
-   pip install torch pandas matplotlib numpy
+   ``` pip install torch pandas matplotlib numpy ```
 
 3. Execute os scripts conforme a atividade desejada:
-   python src/mlp.py     # Para o Experimento 3.1
-   python src/mlp2.py    # Para o Experimento 3.2
+   ``` python src/mlp.py     # Para o Experimento 3.1
+   python src/mlp2.py    # Para o Experimento 3.2 ```
