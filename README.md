@@ -8,18 +8,17 @@ O objetivo principal é implementar uma rede neural do tipo Multi-Layer Perceptr
 
 ## 🔧 Estrutura do Projeto
 
-.
-├── src/
-│   ├── mlp.py        # Implementação para o Experimento 3.1 (Dataset 2)
-│   └── mlp2.py       # Implementação para o Experimento 3.2 (Dataset 4)
-├── dataset/
-│   ├── 2/            # Dataset para o experimento 3.1 (problema não-linear)
-│   │   └── ...       # Arquivos do Dataset 2
-│   └── 4/            # Dataset para o experimento 3.2 (50 features, 4 classes)
-│       ├── train.csv
-│       ├── val.csv
-│       └── test.csv
-└── README.md
+* `src/`
+    * `mlp.py`: Implementação para o Experimento 3.1 (Dataset 2)
+    * `mlp2.py`: Implementação para o Experimento 3.2 (Dataset 4)
+* `dataset/`
+    * `2/`: Dataset para o experimento 3.1 (problema não-linear)
+        * `...`: Arquivos do Dataset 2
+    * `4/`: Dataset para o experimento 3.2 (50 features, 4 classes)
+        * `train.csv`
+        * `val.csv`
+        * `test.csv`
+* `README.md`
 
 ---
 
