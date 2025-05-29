@@ -1,12 +1,10 @@
-# Atividade de Redes Neurais Artificiais – Rede MLP
+# Multilayer Perceptron
 
 Este repositório contém a implementação completa da Atividade 3 da disciplina de Redes Neurais Artificiais do Programa de Pós-Graduação em Ciência da Computação (PPGCC-UNESP).
 
 O objetivo principal é implementar uma rede neural do tipo Multi-Layer Perceptron (MLP) utilizando PyTorch, de forma manual (sem o uso de modelos prontos), para resolver problemas de classificação com diferentes níveis de complexidade, explorando diferentes arquiteturas, funções de ativação, estratégias de regularização e otimizadores.
 
----
-
-## 🔧 Estrutura do Projeto
+## Estrutura do Projeto
 
 * `src/`
     * `mlp.py`: Implementação para o Experimento 3.1 (Dataset 2)
@@ -21,9 +19,7 @@ O objetivo principal é implementar uma rede neural do tipo Multi-Layer Perceptr
         * `validation_dataset.csv`
 * `README.md`
 
----
-
-## ✅ Atendendo aos Requisitos da Atividade
+## Atendendo aos Requisitos da Atividade
 
 O projeto foi desenvolvido para atender integralmente aos requisitos especificados no PDF da atividade:
 
@@ -55,17 +51,13 @@ O projeto foi desenvolvido para atender integralmente aos requisitos especificad
 - Resultados organizados para comparação
 - Avaliação final no conjunto de teste
 
----
-
-## 📊 Resultados
+## Resultados
 Os experimentos realizados mostraram que:
 - Redes maiores com regularização L2 tendem a apresentar o melhor desempenho.
 - O otimizador Adam teve melhor estabilidade em arquiteturas mais profundas.
 - A função de ativação ReLU foi mais eficiente em redes maiores.
 
----
-
-## 🚀 Como Executar
+## Como Executar
 
 1. Clone o repositório:
    ``` 
