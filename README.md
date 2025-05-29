@@ -37,12 +37,12 @@ O projeto foi desenvolvido para atender integralmente aos requisitos especificad
 
 ### 3. Experimentos
 
-#### 🔹 Experimento 3.1 – Dataset 2 (src/mlp.py)
+#### Experimento 3.1 – Dataset 2 (src/mlp.py)
 - Problema não-linear com duas classes
 - Arquitetura pequena e visualização das fronteiras de decisão
 - Foco em resolver a não-linearidade com camadas ocultas
 
-#### 🔹 Experimento 3.2 – Dataset 4 (src/mlp2.py)
+#### Experimento 3.2 – Dataset 4 (src/mlp2.py)
 - Execução automatizada de todas as combinações de:
   - Arquiteturas (pequena, média, grande)
   - Otimizadores (SGD, Adam)
